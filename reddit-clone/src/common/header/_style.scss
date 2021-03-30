@@ -1,0 +1,18 @@
+.logo{
+  width: 100px;
+  height: 100px;
+}
+.navbar{
+  @include fullsize;
+  height: 50px;
+  &-inner{
+    @include fullsize;
+    margin: 0 5%;
+  }
+}
+svg{
+  margin-top: 9px;
+  margin-right: 10px;
+  padding: 5px;
+}
+

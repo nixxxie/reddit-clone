@@ -1,0 +1,18 @@
+@import "variable";
+
+.btn{
+  display: inline-flex;
+  cursor: pointer;
+  color: $color-text;
+  text-align: center;
+  font-weight: bold;
+  font-family: $font-stack;
+  background-color: transparent;
+  width: $btn-width;
+  align-items: center;
+  &:hover{
+    border: solid 1px $color-black;
+    border-radius: $border;
+  }
+}
+
