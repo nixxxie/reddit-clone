@@ -5,13 +5,14 @@
   cursor: pointer;
   color: $color-text;
   text-align: center;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: $font-sm;
   font-family: $font-stack;
   background-color: transparent;
   width: $btn-width;
   align-items: center;
   &:hover{
-    border: solid 1px $color-black;
+    border: solid 1px $color-medium;
     border-radius: $border;
   }
 }

@@ -1,10 +1,12 @@
 @import "variable";
 .inputbox{
+  max-width: $input-width;
   font-family: $font-stack;
   //font-weight: nor;
   background-color: $color-white;
   width: $input-width;
   margin:0 0 0 20px;
+  padding-left: $btn-padding-x;
   border-radius: $border;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

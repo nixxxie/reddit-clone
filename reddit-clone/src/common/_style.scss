@@ -1,15 +1,23 @@
-body{
+body {
   background-color: $color-light;
   font-family: Montserrat;
+  padding: 0;
+  margin: 0;
 }
-.container{
+
+.container {
   display: inline-flex;
   width: 100%;
-  &-inner{
+
+  &-inner {
     margin: 0 5%;
   }
 }
-.center{
+
+.center {
   justify-content: space-between;
   align-content: center;
+}
+a{
+  color:$color-black;
 }
