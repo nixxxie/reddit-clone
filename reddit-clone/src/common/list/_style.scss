@@ -1,0 +1,13 @@
+@import "variable";
+li{
+  margin: 0;
+  padding: 0 15px;
+  font-size: $font-sm;
+  margin-left: $btn-padding-y;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  list-style: none;
+}

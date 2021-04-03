@@ -1,0 +1,11 @@
+@import "variable";
+
+@each $space, $value in $spacer {
+  .mt-#{$space} {
+    margin-top: $value;
+  }
+  .pt-#{$space} {
+    padding-top: $value;
+  }
+}
+

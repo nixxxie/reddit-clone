@@ -1,23 +1,36 @@
 body {
   background-color: $color-light;
-  font-family: Montserrat;
+  font-family: $font-stack;
+  font-size: $font-sm;
+  font-weight: normal;
   padding: 0;
   margin: 0;
+  img{
+    object-fit: contain;
+  }
 }
 
 .container {
   display: inline-flex;
   width: 100%;
 
-  &-inner {
+  &--inner {
+    width: 100%;
+    max-width: 90%;
     margin: 0 5%;
+    display: inline-flex;
   }
 }
 
 .center {
-  justify-content: space-between;
+  //justify-content: space-between;
   align-content: center;
+  justify-content: center;
 }
 a{
   color:$color-black;
+  text-decoration: none;
+}
+.uppercase{
+  text-transform: uppercase;
 }

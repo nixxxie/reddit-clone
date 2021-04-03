@@ -1,0 +1,9 @@
+@import "variable";
+@each $name, $size in $sizing {
+  .w-#{$name}{
+    width: $size,
+  }
+  .h-#{$name}{
+    height: $size;
+  }
+}

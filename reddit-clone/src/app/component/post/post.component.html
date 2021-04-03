@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="container--inner center">
+    <ng-template [ngIf]="post.length > 0" [ngIfElse]="emptyPost">
+      <div class="post box">
+        <p>Post Name</p>
+        <p>Author</p>
+        <div class="container">
+          <img src="favicon.ico">
+          <p>Đề thi môn CSDL 2021</p>
+        </div>
+        <div class="container">
+          <p>#MT&KHTT</p>
+          <p>#CSDL</p>
+          <p>#2021</p>
+        </div>
+        <div class="container">
+          <p>Up vote: 100</p>
+          <p>Down vote: 1</p>
+        </div>
+        <p>See more...</p>
+      </div>
+    </ng-template>
+    <div style="display: block">
+      <ng-template #emptyPost>
+        <div class="bg-dark box w-75">
+          <div class>
+            <fa-icon class="color-primary" [icon]="faArrowAltCircleUp"></fa-icon>
+          </div>
+          <div class="mt-4">
+            <fa-icon class="color-danger" [icon]="faCircle"></fa-icon>
+          </div>
+          <div class="mt-4">
+            <fa-icon class="color-success" [icon]="faArrowDown"></fa-icon>
+          </div>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</div>

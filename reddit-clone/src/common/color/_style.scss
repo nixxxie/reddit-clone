@@ -1,0 +1,13 @@
+@import "mixin";
+
+@each $color, $value in $theme-colors {
+  .bg-#{$color} {
+    @include bg-color($value)
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .color-#{$color} {
+    color: $value
+  }
+}

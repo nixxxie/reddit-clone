@@ -1,0 +1,13 @@
+
+.vote{
+  background-color: $color-white;
+  border-top: solid 1px $color-light;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+  &--inner{
+    width: 100%;  
+    max-width: 80%;
+    margin: 0 10%;
+  }
+}

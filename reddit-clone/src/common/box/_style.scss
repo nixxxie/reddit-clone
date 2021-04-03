@@ -1,0 +1,9 @@
+.box{
+  border: solid 1px $color-black;
+  border-radius: $border;
+  height: fit-content;
+  svg{
+    margin:0;
+    padding:0;
+  }
+}
